@@ -5,6 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "db:seed": "node --no-warnings --env-file .env.local src/db/seed.ts",
+    "export": "node --no-warnings --env-file .env.local src/export.ts",
     "test": "jest"
   },
   "author": "",
